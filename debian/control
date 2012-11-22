@@ -1,15 +1,32 @@
 Source: dirbuster
-Section: unknown
+Section: net
 Priority: extra
-Maintainer: dookie <dookie@kali.localdomain>
+Maintainer: dookie <dookie@kali.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
-Homepage: <insert the upstream URL, if relevant>
-#Vcs-Git: git://git.debian.org/collab-maint/dirbuster.git
-#Vcs-Browser: http://git.debian.org/?p=collab-maint/dirbuster.git;a=summary
+Homepage: https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
+Vcs-Git: ssh://git@git.kali.org/packages/dirbuster.git
+Vcs-Browser: http://git.kali.org/gitweb/?p=packages/dirbuster.git;a=summary
 
 Package: dirbuster
 Architecture: all
-Depends: ${misc:Depends}
-Description: <insert up to 60 chars description>
- <insert long description, indented with spaces>
+Depends: ${misc:Depends}, default-jre
+Description: Web server directory brute-forcer
+ DirBuster is a multi threaded java application designed to
+ brute force directories and files names on web/application 
+ servers. Often is the case now of what looks like a web 
+ server in a state of default installation is actually not, 
+ and has pages and applications hidden within. DirBuster 
+ attempts to find these.
+ .
+ However tools of this nature are often as only good as the 
+ directory and file list they come with. A different 
+ approach was taken to generating this. The list was 
+ generated from scratch, by crawling the Internet and 
+ collecting the directory and files that are actually used 
+ by developers! DirBuster comes a total of 9 different 
+ lists, this makes DirBuster extremely effective at finding 
+ those hidden files and directories. And if that was not 
+ enough DirBuster also has the option to perform a pure 
+ brute force, which leaves the hidden directories and files 
+ nowhere to hide.

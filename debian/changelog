@@ -1,5 +1,5 @@
-dirbuster (1.0-1) unstable; urgency=low
+dirbuster (1.0-1kali1) kali; urgency=low
 
-  * Initial release (Closes: #nnnn)  <nnnn is the bug number of your ITP>
+  * Initial release 
 
- -- dookie <dookie@kali.localdomain>  Thu, 22 Nov 2012 06:58:15 -0700
+ -- dookie <dookie@kali.org>  Thu, 22 Nov 2012 06:58:15 -0700
