@@ -13,5 +13,5 @@
 	dh $@ 
 override_dh_auto_install:
 	dh_auto_install
-	install DirBuster-1.0-RC1.sh usr/bin/dirbuster
+	install DirBuster-1.0-RC1.sh $(CURDIR)/debian/dirbuster/usr/bin/dirbuster
 
