@@ -1,3 +1,4 @@
+[Desktop Entry]
 Name=dirbuster
 Encoding=UTF-8
 Exec=sh -c "dirbuster;sudo -s"
