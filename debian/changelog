@@ -1,3 +1,9 @@
+dirbuster (1.0-1kali2) kali; urgency=low
+
+  * Removed desktop files
+
+ -- Mati Aharoni <muts@kali.org>  Sat, 15 Dec 2012 07:16:13 -0500
+
 dirbuster (1.0-1kali1) kali; urgency=low
 
   * Initial release 

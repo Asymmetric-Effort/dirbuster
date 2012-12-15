@@ -1,4 +1,3 @@
-debian/kali-dirbuster.desktop usr/share/applications/
 lib/* usr/share/dirbuster/lib/
 *.txt usr/share/dirbuster/wordlists/
 *.jbrofuzz usr/share/dirbuster/wordlists/
