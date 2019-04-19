@@ -5,8 +5,8 @@ Maintainer: Kali Developers <devel@kali.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 Homepage: https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
-Vcs-Git: git://git.kali.org/packages/dirbuster.git
-Vcs-Browser: http://git.kali.org/gitweb/?p=packages/dirbuster.git;a=summary
+Vcs-Git: https://gitlab.com/kalilinux/packages/dirbuster.git
+Vcs-Browser: https://gitlab.com/kalilinux/packages/dirbuster
 
 Package: dirbuster
 Architecture: all
