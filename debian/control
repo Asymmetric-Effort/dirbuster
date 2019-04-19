@@ -1,7 +1,7 @@
 Source: dirbuster
 Section: net
 Priority: extra
-Maintainer: dookie <dookie@kali.org>
+Maintainer: Kali Developers <devel@kali.org>
 Build-Depends: debhelper (>= 8.0.0)
 Standards-Version: 3.9.3
 Homepage: https://www.owasp.org/index.php/Category:OWASP_DirBuster_Project
